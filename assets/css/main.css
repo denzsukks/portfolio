@@ -17,39 +17,40 @@
   --nav-font: "Poppins",  sans-serif;
 }
 
-/* Global Colors - Dark Red Theme */
+/* Global Colors - Black + Dark Red Accent Theme */
 :root { 
-  --background-color: #1a0000; /* Deep dark red background */
-  --default-color: #f2e6e6; /* Light text color for readability */
-  --heading-color: #ffcccc; /* Pale red for headings */
-  --accent-color: #b30000; /* Strong accent color - dark red */
-  --surface-color: #330000; /* Slightly lighter box background */
-  --contrast-color: #ffffff; /* White text for maximum contrast */
+  --background-color: #0d0d0d; /* Near-black background for the whole site */
+  --default-color: #e0e0e0; /* Light gray text for readability */
+  --heading-color: #ff4d4d; /* Bold red for headings */
+  --accent-color: #b30000; /* Deep red for buttons, links, highlights */
+  --surface-color: #1a1a1a; /* Dark gray for cards, boxes */
+  --contrast-color: #ffffff; /* White for contrast on dark elements */
 }
 
-/* Nav Menu Colors - Dark Red Theme */
+/* Nav Menu Colors - Adjusted for Dark Theme */
 :root {
-  --nav-color: #e6b3b3;  /* Light red/rose tint for nav links */
-  --nav-hover-color: #ffffff; /* White on hover */
-  --nav-mobile-background-color: #1a0000; /* Deep red for mobile nav */
-  --nav-dropdown-background-color: #260000; /* Dropdown background */
-  --nav-dropdown-color: #e6b3b3; /* Dropdown link color */
+  --nav-color: #cccccc;  /* Light gray for nav links */
+  --nav-hover-color: #ffffff; /* White on hover/active */
+  --nav-mobile-background-color: #000000; /* Black mobile menu background */
+  --nav-dropdown-background-color: #1a1a1a; /* Dark gray for dropdowns */
+  --nav-dropdown-color: #cccccc; /* Light gray links in dropdowns */
   --nav-dropdown-hover-color: #ffffff; /* White on hover */
 }
 
-/* Color Presets - Optional Dark Red Presets */
+/* Color Presets - Black Background with Red Accent */
 .light-background {
-  --background-color: #2e0a0a;
-  --surface-color: #400000;
+  --background-color: #1a1a1a;
+  --surface-color: #262626;
 }
 
 .dark-background {
-  --background-color: #1a0000;
-  --default-color: #f2e6e6;
-  --heading-color: #ffcccc;
-  --surface-color: #330000;
+  --background-color: #000000;
+  --default-color: #e0e0e0;
+  --heading-color: #ff4d4d;
+  --surface-color: #1a1a1a;
   --contrast-color: #ffffff;
 }
+
 
 
 /* Smooth scroll */
